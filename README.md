@@ -1,20 +1,43 @@
-PROJECT 3 — AUDIT WORKING PAPERS
+# Project 3 — Audit Working Papers
 
-OVERVIEW
+## 📌 Project Overview
 
-This project is a simulated audit engagement for Meridian Trading Ltd, designed to demonstrate an end-to-end understanding of audit planning, risk assessment, controls testing, substantive testing, lead schedules and completion procedures.
+This project is a **simulated end-to-end audit engagement for Meridian Trading Ltd**, created to demonstrate practical understanding of audit planning, materiality, risk assessment, controls testing, substantive testing, lead schedules and audit completion.
 
 The project follows the audit workflow:
 
-Understand the business → Set materiality → Assess risks → Plan responses → Test → Conclude
+> **Understand the business → Set materiality → Assess risks → Plan responses → Test → Conclude**
 
-IMPORTANT:
-Meridian Trading Ltd is fictional. This project is for learning and portfolio purposes and is not evidence of an actual audit engagement or audit opinion.
+> ⚠️ **Important:** Meridian Trading Ltd is a fictional company. This project is created for learning and portfolio purposes and does not represent an actual audit engagement, actual client information, audit evidence or an independent auditor's opinion.
 
+---
 
-PROJECT STRUCTURE
+## 🎯 Project Objective
 
-Project 3 - Audit Working Papers
+The objective of this project is to demonstrate how an audit can be documented from the planning stage through completion using structured working papers.
+
+The project covers:
+
+* Audit planning
+* Materiality assessment
+* Risk assessment
+* Audit assertions
+* Controls testing
+* Substantive testing
+* Audit sampling
+* Audit evidence
+* Lead schedules
+* Reconciliations
+* Review points
+* Audit completion
+* Final simulated conclusion
+
+---
+
+# 📁 Project Structure
+
+```text
+audit-working-papers/
 │
 ├── 01_Audit_Planning.xlsx
 ├── 02_Risk_Assessment.xlsx
@@ -25,165 +48,349 @@ Project 3 - Audit Working Papers
 ├── Audit_Working_Papers_Final.xlsx
 ├── Audit_Report.docx
 ├── README.md
-└── Screenshots
+│
+└── Screenshots/
+    ├── Audit Planning & Materiality.png
+    ├── Completion.png
+    ├── Controls Testing.png
+    ├── Revenue Lead Schedule.png
+    ├── Risk Assessment.png
+    └── Substantive Testing.png
+```
 
+---
 
-1. AUDIT PLANNING
+# 1. Audit Planning
 
-The planning file establishes the engagement background, audit objectives, materiality, preliminary risks and overall audit strategy.
+The audit planning workpaper establishes the engagement background, audit objectives, materiality, preliminary risks and overall audit strategy.
 
-MATERIALITY
+### Key Areas Covered
 
-Profit before tax: £1,200,000
+* Engagement details
+* Company background
+* Audit objectives
+* Materiality
+* Preliminary risk assessment
+* Audit strategy
+* Sign-off
 
-Overall materiality:
-5% of PBT = £60,000
+---
 
-Performance materiality:
-75% of overall materiality = £45,000
+# 2. Materiality
 
+The project uses an illustrative profit before tax benchmark of **£1.2 million**.
 
-2. RISK ASSESSMENT
+| Measure                 | Basis                      |     Amount |
+| ----------------------- | -------------------------- | ---------: |
+| Profit Before Tax       | Illustrative benchmark     | £1,200,000 |
+| Overall Materiality     | 5% of PBT                  |    £60,000 |
+| Performance Materiality | 75% of Overall Materiality |    £45,000 |
 
-The risk register focuses on key areas requiring audit attention.
+### Materiality Calculation
 
-Revenue recognition — HIGH RISK
+```text
+£1,200,000 × 5% = £60,000
 
-- Focus on cut-off and analytical review.
-- Revenue recognition is treated as a presumed fraud risk under ISA 240 within the project.
+£60,000 × 75% = £45,000
 
-Inventory valuation — HIGH RISK
+£45,000 ÷ £60,000 = 75%
+```
 
-- Focus on inventory count procedures, costing and net realisable value considerations.
+These figures are used as an illustrative planning basis within the simulated engagement.
 
-Management estimates — MEDIUM RISK
+---
 
-- Challenge assumptions and obtain supporting evidence.
-- Consider the possibility of management bias.
+# 3. Risk Assessment
 
+The risk assessment identifies areas where material misstatement could arise and links identified risks to planned audit responses.
 
-3. CONTROLS TESTING
+## Revenue Recognition — High Risk
 
-The controls workpapers demonstrate how selected controls can be assessed for operating effectiveness.
+Key audit focus:
+
+* Revenue cut-off
+* Analytical review
+* Supporting documentation
+* Revenue recognition considerations
+
+Revenue recognition is treated as a presumed fraud risk under ISA 240 within the project.
+
+## Inventory Valuation — High Risk
+
+Key audit focus:
+
+* Inventory count procedures
+* Inventory costing
+* Net realisable value considerations
+* Valuation evidence
+
+## Management Estimates — Medium Risk
+
+Key audit focus:
+
+* Challenging management assumptions
+* Obtaining supporting evidence
+* Considering potential management bias
+
+---
+
+# 4. Audit Assertions
+
+The working papers use the following key financial statement assertions:
+
+* **Existence**
+* **Completeness**
+* **Valuation**
+* **Rights & Obligations**
+* **Cut-off**
+
+Audit procedures are linked to relevant assertions to demonstrate a risk-based audit approach.
+
+---
+
+# 5. Controls Testing
+
+The controls testing workpapers demonstrate how selected controls can be assessed for operating effectiveness.
 
 Areas covered include:
 
-- Revenue authorisation
-- Year-end revenue cut-off
-- Inventory count and costing
-- Review of management estimates
+* Revenue authorisation
+* Year-end revenue cut-off
+* Inventory count and costing
+* Review of management estimates
 
-The project distinguishes between:
+## Controls Testing vs Substantive Testing
 
-Controls testing:
-Assessing whether controls operate effectively.
+**Controls testing** assesses whether selected controls operate effectively.
 
-Substantive testing:
-Testing whether recorded transactions and balances are appropriate.
+**Substantive testing** focuses on whether recorded transactions and balances are appropriate and supported by audit evidence.
 
+---
 
-4. SUBSTANTIVE TESTING
+# 6. Substantive Testing
 
-Substantive procedures are organised into:
+Substantive testing is organised into several key audit areas:
 
-- Revenue
-- Payables
-- Cash
-- Inventory
-- Other balances
+* Revenue
+* Payables
+* Cash
+* Inventory
+* Other balances
 
-Testing is linked to relevant assertions and supporting evidence.
+The procedures are designed to obtain audit evidence over relevant assertions and investigate exceptions or unusual items.
 
-An illustrative £14,000 transfer dated 30 June is included as a cash cut-off review point with a cross-reference to F3.
+## Illustrative Cash Cut-off Review
 
+The project includes an illustrative:
 
-5. LEAD SCHEDULES
+**£14,000 transfer dated 30 June**
 
-Lead schedules provide a structured connection between trial-balance amounts, audited amounts, differences and supporting working papers.
+This item requires:
+
+* Cut-off testing
+* Review of supporting evidence
+* Cross-reference to working paper **F3**
+
+This is an illustrative project scenario and does not represent an actual client transaction.
+
+---
+
+# 7. Lead Schedules
+
+Lead schedules provide a structured link between trial balance amounts, audited amounts, differences and supporting working papers.
 
 The project includes lead schedules for:
 
-- Revenue
-- Payables
-- Cash
-- Inventory
+* Revenue
+* Payables
+* Cash
+* Inventory
 
-Actual client balances are not invented where the project source does not provide them.
+The cash lead schedule also includes the illustrative £14,000 transfer review point.
 
+## Lead Schedule Purpose
 
-6. COMPLETION
+Lead schedules demonstrate:
 
-The completion file brings together:
+* Reconciliation of balances
+* Identification of differences
+* Supporting audit evidence
+* Cross-referencing
+* Audit conclusions
+* Review points
 
-- Section conclusions
-- Review points
-- Summary of misstatements
-- Completion checklist
-- Final simulated conclusion
-- Sign-off
+---
 
-The final conclusion is intentionally dependent on supporting evidence because the project source does not provide a complete set of client records or quantified audit adjustments.
+# 8. Audit Completion
 
+The completion workpaper brings together the results of the audit sections and outstanding review points.
 
-KEY AUDIT ASSERTIONS
+It includes:
 
-The project uses the following assertions:
+* Completion overview
+* Summary of misstatements
+* Review points
+* Section conclusions
+* Completion checklist
+* Final audit conclusion
+* Sign-off
 
-- Existence
-- Completeness
-- Valuation
-- Rights & obligations
-- Cut-off
+## Final Conclusion
 
+The final conclusion is intentionally dependent on completion of the planned audit work and evaluation of supporting evidence.
 
-SKILLS DEMONSTRATED
+The project does **not** issue an actual audit opinion because complete client records, audit evidence and quantified misstatements are not provided.
 
-- Audit planning
-- Materiality assessment
-- Risk assessment
-- Audit assertions
-- Controls testing
-- Substantive testing
-- Audit sampling
-- Audit evidence
-- Lead schedules
-- Reconciliations
-- Working-paper documentation
-- Review points and sign-off
-- Audit completion procedures
+---
 
+# 📸 Project Screenshots
 
-WORKING PAPER INDEX
+The following screenshots provide visual evidence of the working papers included in this project.
 
-A
-Audit Planning
+## Audit Planning & Materiality
 
-B
-Risk Assessment & Materiality
+![Audit Planning & Materiality](Screenshots/Audit%20Planning%20%26%20Materiality.png)
 
-C
-Controls Testing
+## Risk Assessment
 
-D–G
-Substantive Testing
+![Risk Assessment](Screenshots/Risk%20Assessment.png)
 
-Lead Schedules
-Revenue, Payables, Cash & Inventory
+## Controls Testing
 
-Z
-Completion & Conclusions
+![Controls Testing](Screenshots/Controls%20Testing.png)
 
-F3
-Illustrative Cash Transfer Cut-off Review
+## Substantive Testing
 
+![Substantive Testing](Screenshots/Substantive%20Testing.png)
 
-PORTFOLIO NOTE
+## Revenue Lead Schedule
 
-This project demonstrates a structured, risk-based audit approach using Excel working papers and a supporting Word report.
+![Revenue Lead Schedule](Screenshots/Revenue%20Lead%20Schedule.png)
 
-It is intended to demonstrate practical understanding of audit documentation and methodology rather than represent a real client engagement.
+## Audit Completion
 
+![Audit Completion](Screenshots/Completion.png)
 
-SOURCE
+---
 
-Based on Project 3 — Audit Working Papers from the user's finance-project portfolio material.
+# 📂 Working Paper Index
+
+| Reference          | Section                                   |
+| ------------------ | ----------------------------------------- |
+| **A**              | Audit Planning                            |
+| **B**              | Risk Assessment & Materiality             |
+| **C**              | Controls Testing                          |
+| **D–G**            | Substantive Testing                       |
+| **Lead Schedules** | Revenue, Payables, Cash & Inventory       |
+| **Z**              | Completion & Conclusions                  |
+| **F3**             | Illustrative Cash Transfer Cut-off Review |
+
+---
+
+# 🛠️ Tools Used
+
+* **Microsoft Excel** — Audit working papers, calculations, reconciliations and documentation
+* **Microsoft Word** — Audit report and documentation
+* **GitHub** — Project version control and portfolio presentation
+
+---
+
+# 💼 Skills Demonstrated
+
+## Audit & Accounting
+
+* Audit planning
+* Materiality assessment
+* Risk assessment
+* Audit assertions
+* Controls testing
+* Substantive testing
+* Audit sampling
+* Audit evidence
+* Lead schedules
+* Reconciliations
+* Audit documentation
+* Review procedures
+* Audit completion
+
+## Professional Skills
+
+* Structured working-paper preparation
+* Analytical thinking
+* Risk-based approach
+* Documentation and cross-referencing
+* Professional presentation
+* Attention to detail
+
+---
+
+# 📄 Project Deliverables
+
+## Excel Working Papers
+
+1. `01_Audit_Planning.xlsx`
+2. `02_Risk_Assessment.xlsx`
+3. `03_Controls_Testing.xlsx`
+4. `04_Substantive_Testing.xlsx`
+5. `05_Lead_Schedules.xlsx`
+6. `06_Completion.xlsx`
+7. `Audit_Working_Papers_Final.xlsx`
+
+## Documentation
+
+* `Audit_Report.docx`
+* `README.md`
+
+## Visual Evidence
+
+* Audit Planning & Materiality
+* Risk Assessment
+* Controls Testing
+* Substantive Testing
+* Revenue Lead Schedule
+* Audit Completion
+
+---
+
+# 📌 Portfolio Note
+
+This project demonstrates a structured, risk-based approach to audit working papers through a simulated engagement.
+
+The project demonstrates the workflow:
+
+> **Planning → Risk Assessment → Controls → Substantive Testing → Lead Schedules → Completion**
+
+All financial amounts and client information used where applicable are illustrative and should not be interpreted as actual client data.
+
+---
+
+# ⚠️ Disclaimer
+
+This is a **fictional portfolio project** created for educational and professional-development purposes.
+
+Meridian Trading Ltd is not presented as an actual audit client.
+
+This repository does not represent:
+
+* An actual audit engagement
+* Actual client information
+* Actual audit evidence
+* An independent auditor's report
+* An audit opinion
+* An assurance conclusion
+
+---
+
+# 📊 Project Status
+
+**Status:** Completed — Portfolio Project
+
+**Track:** Audit & Assurance
+
+**Level:** Intermediate
+
+**Format:** Excel + Word + GitHub
+
+**Engagement:** Simulated
+
+**Client:** Meridian Trading Ltd
