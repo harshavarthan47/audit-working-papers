@@ -1,4 +1,4 @@
-# Project 3 — Audit Working Papers
+# Audit Working Papers
 
 ## 📌 Project Overview
 
